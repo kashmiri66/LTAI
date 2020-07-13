@@ -17,6 +17,9 @@
 		05C95F8824BC533400B7C1C7 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F8724BC533400B7C1C7 /* LaunchScreen.swift */; };
 		05C95F8E24BC542D00B7C1C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F8D24BC542D00B7C1C7 /* LoginView.swift */; };
 		05C95F9024BC55C500B7C1C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05C95F8F24BC55C500B7C1C7 /* GoogleService-Info.plist */; };
+		0FBD46874FD62DB54ACE314E /* Pods_LTAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8A764DB69CF3A53A393A6B /* Pods_LTAI.framework */; };
+		BFB4FB96F58AF921DA04C2E8 /* Pods_LTAITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B2E8A012D160F704272018 /* Pods_LTAITests.framework */; };
+		E2F93F20D160FF55AC031D0A /* Pods_LTAI_LTAIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09659C6EC0D670A6BB992AA9 /* Pods_LTAI_LTAIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,15 @@
 		05C95F8724BC533400B7C1C7 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		05C95F8D24BC542D00B7C1C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		05C95F8F24BC55C500B7C1C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09659C6EC0D670A6BB992AA9 /* Pods_LTAI_LTAIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTAI_LTAIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231F4037CC39893C10C7375C /* Pods-LTAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAI.debug.xcconfig"; path = "Target Support Files/Pods-LTAI/Pods-LTAI.debug.xcconfig"; sourceTree = "<group>"; };
+		70B2E8A012D160F704272018 /* Pods_LTAITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTAITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AACF39F242AB1347ED7CAE2 /* Pods-LTAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAITests.debug.xcconfig"; path = "Target Support Files/Pods-LTAITests/Pods-LTAITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8A764DB69CF3A53A393A6B /* Pods_LTAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0086A3293845BE92AD267BB /* Pods-LTAI-LTAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAI-LTAIUITests.release.xcconfig"; path = "Target Support Files/Pods-LTAI-LTAIUITests/Pods-LTAI-LTAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC59F66478C94C022CE302A9 /* Pods-LTAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAI.release.xcconfig"; path = "Target Support Files/Pods-LTAI/Pods-LTAI.release.xcconfig"; sourceTree = "<group>"; };
+		F45CB26A5C9A22999D01AF20 /* Pods-LTAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAITests.release.xcconfig"; path = "Target Support Files/Pods-LTAITests/Pods-LTAITests.release.xcconfig"; sourceTree = "<group>"; };
+		F47323E59FDFF9E57BBEB9E8 /* Pods-LTAI-LTAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTAI-LTAIUITests.debug.xcconfig"; path = "Target Support Files/Pods-LTAI-LTAIUITests/Pods-LTAI-LTAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBD46874FD62DB54ACE314E /* Pods_LTAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB4FB96F58AF921DA04C2E8 /* Pods_LTAITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F93F20D160FF55AC031D0A /* Pods_LTAI_LTAIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				05C95F6D24BC528D00B7C1C7 /* LTAITests */,
 				05C95F7824BC528D00B7C1C7 /* LTAIUITests */,
 				05C95F5524BC528C00B7C1C7 /* Products */,
+				0BCEFB1537FBF678D3524B0C /* Pods */,
+				3B09A1A2843D2DC8CBDBFA6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +159,30 @@
 			path = LTAIUITests;
 			sourceTree = "<group>";
 		};
+		0BCEFB1537FBF678D3524B0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				231F4037CC39893C10C7375C /* Pods-LTAI.debug.xcconfig */,
+				DC59F66478C94C022CE302A9 /* Pods-LTAI.release.xcconfig */,
+				F47323E59FDFF9E57BBEB9E8 /* Pods-LTAI-LTAIUITests.debug.xcconfig */,
+				A0086A3293845BE92AD267BB /* Pods-LTAI-LTAIUITests.release.xcconfig */,
+				8AACF39F242AB1347ED7CAE2 /* Pods-LTAITests.debug.xcconfig */,
+				F45CB26A5C9A22999D01AF20 /* Pods-LTAITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B09A1A2843D2DC8CBDBFA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A764DB69CF3A53A393A6B /* Pods_LTAI.framework */,
+				09659C6EC0D670A6BB992AA9 /* Pods_LTAI_LTAIUITests.framework */,
+				70B2E8A012D160F704272018 /* Pods_LTAITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C95F7E24BC528D00B7C1C7 /* Build configuration list for PBXNativeTarget "LTAI" */;
 			buildPhases = (
+				89A18F0FB0D0CEB2137F92BE /* [CP] Check Pods Manifest.lock */,
 				05C95F5024BC528C00B7C1C7 /* Sources */,
 				05C95F5124BC528C00B7C1C7 /* Frameworks */,
 				05C95F5224BC528C00B7C1C7 /* Resources */,
+				10304D8065A12BFFE55F4E7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C95F8124BC528D00B7C1C7 /* Build configuration list for PBXNativeTarget "LTAITests" */;
 			buildPhases = (
+				8E39B0D3CB99C37D522DC9FE /* [CP] Check Pods Manifest.lock */,
 				05C95F6624BC528D00B7C1C7 /* Sources */,
 				05C95F6724BC528D00B7C1C7 /* Frameworks */,
 				05C95F6824BC528D00B7C1C7 /* Resources */,
@@ -184,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C95F8424BC528D00B7C1C7 /* Build configuration list for PBXNativeTarget "LTAIUITests" */;
 			buildPhases = (
+				AA23FE8D9AAE1EA6530FE872 /* [CP] Check Pods Manifest.lock */,
 				05C95F7124BC528D00B7C1C7 /* Sources */,
 				05C95F7224BC528D00B7C1C7 /* Frameworks */,
 				05C95F7324BC528D00B7C1C7 /* Resources */,
+				269192359DB9DD2CB38AAF4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +314,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10304D8065A12BFFE55F4E7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTAI/Pods-LTAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTAI/Pods-LTAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTAI/Pods-LTAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269192359DB9DD2CB38AAF4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTAI-LTAIUITests/Pods-LTAI-LTAIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTAI-LTAIUITests/Pods-LTAI-LTAIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTAI-LTAIUITests/Pods-LTAI-LTAIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A18F0FB0D0CEB2137F92BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E39B0D3CB99C37D522DC9FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA23FE8D9AAE1EA6530FE872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTAI-LTAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05C95F5024BC528C00B7C1C7 /* Sources */ = {
@@ -440,6 +589,7 @@
 		};
 		05C95F7F24BC528D00B7C1C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231F4037CC39893C10C7375C /* Pods-LTAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +609,7 @@
 		};
 		05C95F8024BC528D00B7C1C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC59F66478C94C022CE302A9 /* Pods-LTAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +629,7 @@
 		};
 		05C95F8224BC528D00B7C1C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AACF39F242AB1347ED7CAE2 /* Pods-LTAITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +651,7 @@
 		};
 		05C95F8324BC528D00B7C1C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45CB26A5C9A22999D01AF20 /* Pods-LTAITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +673,7 @@
 		};
 		05C95F8524BC528D00B7C1C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47323E59FDFF9E57BBEB9E8 /* Pods-LTAI-LTAIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +693,7 @@
 		};
 		05C95F8624BC528D00B7C1C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0086A3293845BE92AD267BB /* Pods-LTAI-LTAIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_LTAI {
+  umbrella header "Pods-LTAI-umbrella.h"
+
+  export *
+  module * { export * }
+}
