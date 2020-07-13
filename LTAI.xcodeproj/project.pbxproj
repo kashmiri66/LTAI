@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		05C95F5824BC528C00B7C1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F5724BC528C00B7C1C7 /* AppDelegate.swift */; };
 		05C95F5A24BC528C00B7C1C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F5924BC528C00B7C1C7 /* SceneDelegate.swift */; };
-		05C95F5C24BC528C00B7C1C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F5B24BC528C00B7C1C7 /* ContentView.swift */; };
 		05C95F5E24BC528C00B7C1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C95F5D24BC528C00B7C1C7 /* Assets.xcassets */; };
 		05C95F6124BC528D00B7C1C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C95F6024BC528D00B7C1C7 /* Preview Assets.xcassets */; };
 		05C95F6424BC528D00B7C1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C95F6224BC528D00B7C1C7 /* LaunchScreen.storyboard */; };
 		05C95F6F24BC528D00B7C1C7 /* LTAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F6E24BC528D00B7C1C7 /* LTAITests.swift */; };
 		05C95F7A24BC528D00B7C1C7 /* LTAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F7924BC528D00B7C1C7 /* LTAIUITests.swift */; };
+		05C95F8824BC533400B7C1C7 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F8724BC533400B7C1C7 /* LaunchScreen.swift */; };
+		05C95F8E24BC542D00B7C1C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C95F8D24BC542D00B7C1C7 /* LoginView.swift */; };
+		05C95F9024BC55C500B7C1C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05C95F8F24BC55C500B7C1C7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		05C95F5424BC528C00B7C1C7 /* LTAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C95F5724BC528C00B7C1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05C95F5924BC528C00B7C1C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05C95F5B24BC528C00B7C1C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05C95F5D24BC528C00B7C1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C95F6024BC528D00B7C1C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05C95F6324BC528D00B7C1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		05C95F7524BC528D00B7C1C7 /* LTAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C95F7924BC528D00B7C1C7 /* LTAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTAIUITests.swift; sourceTree = "<group>"; };
 		05C95F7B24BC528D00B7C1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C95F8724BC533400B7C1C7 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		05C95F8D24BC542D00B7C1C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		05C95F8F24BC55C500B7C1C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				05C95F5724BC528C00B7C1C7 /* AppDelegate.swift */,
 				05C95F5924BC528C00B7C1C7 /* SceneDelegate.swift */,
-				05C95F5B24BC528C00B7C1C7 /* ContentView.swift */,
 				05C95F5D24BC528C00B7C1C7 /* Assets.xcassets */,
+				05C95F8724BC533400B7C1C7 /* LaunchScreen.swift */,
 				05C95F6224BC528D00B7C1C7 /* LaunchScreen.storyboard */,
 				05C95F6524BC528D00B7C1C7 /* Info.plist */,
 				05C95F5F24BC528D00B7C1C7 /* Preview Content */,
+				05C95F8D24BC542D00B7C1C7 /* LoginView.swift */,
+				05C95F8F24BC55C500B7C1C7 /* GoogleService-Info.plist */,
 			);
 			path = LTAI;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05C95F6424BC528D00B7C1C7 /* LaunchScreen.storyboard in Resources */,
+				05C95F9024BC55C500B7C1C7 /* GoogleService-Info.plist in Resources */,
 				05C95F6124BC528D00B7C1C7 /* Preview Assets.xcassets in Resources */,
 				05C95F5E24BC528C00B7C1C7 /* Assets.xcassets in Resources */,
 			);
@@ -269,7 +276,8 @@
 			files = (
 				05C95F5824BC528C00B7C1C7 /* AppDelegate.swift in Sources */,
 				05C95F5A24BC528C00B7C1C7 /* SceneDelegate.swift in Sources */,
-				05C95F5C24BC528C00B7C1C7 /* ContentView.swift in Sources */,
+				05C95F8E24BC542D00B7C1C7 /* LoginView.swift in Sources */,
+				05C95F8824BC533400B7C1C7 /* LaunchScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
